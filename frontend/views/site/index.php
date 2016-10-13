@@ -1,8 +1,6 @@
 <?php
 
 /* @var $this yii\web\View */
-// echo '<pre>'.print_r($_SESSION,true).'</pre>';
-echo '<pre>'.print_r($_COOKIE,true).'</pre>';
 $this->title = 'My Yii Application';
 ?>
 <div class="site-index">
