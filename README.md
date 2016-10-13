@@ -19,11 +19,12 @@ Documentation is at [docs/guide/README.md](docs/guide/README.md).
 DIRECTORY STRUCTURE
 -------------------
 
-
+```
 common
     config/              contains shared configurations
     mail/                contains view files for e-mails
     models/              contains model classes used in both backend and frontend
+```
 console
     config/              contains console configurations
     controllers/         contains console controllers (commands)
@@ -51,4 +52,3 @@ vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 tests                    contains various tests for the advanced application
     codeception/         contains tests developed with Codeception PHP Testing Framework
-
