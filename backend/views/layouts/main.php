@@ -59,8 +59,7 @@ AppAsset::register($this);
         $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
     } else {
         $menuItems[] = ['label' => 'gii', 'url' => ['/gii']];
-        $menuItems[] = ['label' => 'upload', 'url' => ['/companies/create']];
-        $menuItems[] = ['label' => 'tools', 'url' => ['/site/tools']];
+        $menuItems[] = ['label' => 'tools', 'url' => ['/tools']];
         $menuItems[] = ['label' => 'ImportExcel', 'url' => ['/branches/import-excel']];
 		$menuItems[] = [
 			'label' => 'Dropdown',
