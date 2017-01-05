@@ -5,7 +5,7 @@ namespace app\models;
 use Yii;
 use yii\base\Model;
 
-class UploadCsvForm extends Model{
+class UploadTsvForm extends Model{
     public $game;
 
     public $file;
@@ -14,7 +14,7 @@ class UploadCsvForm extends Model{
         return [
             [['game', 'file'],'required'],
 			[['game'], 'trim'],
-            [['file'],'file','extensions'=>'csv','maxSize'=>1024 * 1024 * 5],
+            [['file'],'file','extensions'=>'tsv','maxSize'=>1024 * 1024 * 5],
         ];
     }
     
